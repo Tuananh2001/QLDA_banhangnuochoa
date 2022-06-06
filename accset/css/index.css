@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #596fb6 ,#d098e6);
+}
+.from-login{
+    width: 310px;
+    height: 305px;
+    border-radius: 10px;
+    padding: 40px 30px;
+    background: #fff;
+}
+.from-login h1{
+    margin-bottom: 27px;
+}
+.from-next{
+    margin-bottom: 40px;
+    position: relative;
+}
+.from-next input{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+    padding-left: 12px;
+}
+.from-next label {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+}
+.from-next label.focus {
+    transform: translateY(-45x);
+}
+.from-login button{
+    height: 35px;
+    width: 100%;
+    margin-bottom: 17px;
+    background-image: linear-gradient(90deg, #596fb6 ,#d098e6);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-size: 200%;
+    transition: 0.5s;
+}
+.from-login button:hover{
+    background-position: right;
+}
+
+
+
+.from-logins{
+    width: 40%;
+    height: 450px;
+    border-radius: 10px;
+    padding: 40px 30px;
+    background: #fff;
+}
+.from-logins h1{
+    margin-bottom: 27px;
+}
+.from-nexts{
+    margin-bottom: 40px;
+    position: relative;
+}
+.from-nexts input{
+    width: 120%;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+    padding-left: 12px;
+}
+.from-nexts label {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+}
+.from-nexts label.focus {
+    transform: translateY(-45x);
+}
+.from-logins button{
+    height: 35px;
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 17px;
+    background-image: linear-gradient(90deg, #596fb6 ,#d098e6);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-size: 200%;
+    transition: 0.5s;
+}
+.from-logins button:hover{
+    background-position: right;
+}
+.pk{
+    text-align: center;
+}
+
+.xl{
+    padding-right: 20%;
+}
+
+
+
+.text a:hover{
+    color: #000;
+}
+
