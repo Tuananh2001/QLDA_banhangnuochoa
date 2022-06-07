@@ -47,7 +47,7 @@
                         <h4>Mô tả</h4>
                     </div>
                     <div class="category__description-text">
-                        <p><?php echo $row_ctsp['Mota'] ?></p>
+                        <p><?php echo $row_ctsp['Mota'] ?></p> 
                     </div>
                 </div>
     <?php 
